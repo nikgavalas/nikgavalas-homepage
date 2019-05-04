@@ -9,7 +9,6 @@ export default function MusicPage() {
 		<>
 			<IonContent>
 				<img src="assets/img/music.jpg" alt="Me!" />
-				<Section />
 			</IonContent>
 		</>
 	)

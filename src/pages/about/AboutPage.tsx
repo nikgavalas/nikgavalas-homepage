@@ -9,7 +9,6 @@ export default function AboutPage() {
 		<>
 			<IonContent>
 				<img src="assets/img/about.jpg" alt="Me!" />
-				<Section />
 			</IonContent>
 		</>
 	)

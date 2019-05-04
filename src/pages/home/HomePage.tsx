@@ -11,7 +11,6 @@ export default function HomePage() {
 		<>
 			<IonContent>
 				<img src="assets/img/me.jpg" alt="Me!" />
-				<Section />
 			</IonContent>
 		</>
 	)
