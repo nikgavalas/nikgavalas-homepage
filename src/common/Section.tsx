@@ -12,7 +12,7 @@ type SectionProps = {
 	children: ReactNode;
 };
 
-const Section: React.SFC<SectionProps> = (props: SectionProps) => {
+const Section: React.FC<SectionProps> = (props: SectionProps) => {
 	return (
 		<div style={{
 			display: 'flex',
@@ -21,7 +21,9 @@ const Section: React.SFC<SectionProps> = (props: SectionProps) => {
 			background: props.background
 		}}
 		>
-			<IonGrid fixed>
+			<IonGrid fixed style={{
+				maxWidth: '960px'
+			}}>
 				<IonRow>
 					<IonCol class="ion-text-center ion-margin">
 						<h1 className="ion-text-uppercase">{props.title}</h1>
