@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import HomePage from './pages/home/HomePage';
 import SoftwarePage from './pages/software/SoftwarePage';
 import Header from './common/Header';
-import AboutPage from './pages/about/AboutPage';
+import AboutPage from './pages/aviation/AviationPage';
 import MusicPage from './pages/music/MusicPage';
 
 
