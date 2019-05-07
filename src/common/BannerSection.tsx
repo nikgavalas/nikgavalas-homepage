@@ -25,21 +25,27 @@ type BannerSectionProps = {
 };
 
 const BannerSection: React.FC<BannerSectionProps> = (props: BannerSectionProps) => {
+	const BANNER_HEIGHT = '500px';
+
 	return (
 		<div style={{
 			fontFamily: 'Eina,"Helvetica Neue",Helvetica,sans-serif'
 		}}>
 			<IonGrid style={{ padding: '0' }}>
 				<IonRow style={{ padding: '0' }}>
-					<IonCol sizeSm="12" sizeMd="8" style={{ padding: '0' }}>
-						<img src={props.imgPath} alt="banner" />
+					<IonCol size="12" sizeMd="7" style={{ padding: '0' }}>
+						<div style={{
+							background: `url(${props.imgPath}) center no-repeat`,
+							height: BANNER_HEIGHT
+						}}
+						></div>
 					</IonCol>
-					<IonCol sizeSm="12" sizeMd="4" style={{ padding: '0' }}>
+					<IonCol size="12" sizeMd="5" style={{ padding: '0' }}>
 						<div style={{
 							background: 'var(--ion-color-primary-tint)',
 							textAlign: 'center',
 							paddingTop: '120px',
-							height: '100%'
+							height: BANNER_HEIGHT
 						}}>
 							{props.children}
 						</div>

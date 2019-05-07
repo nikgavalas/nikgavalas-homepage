@@ -86,10 +86,10 @@ export const LargeSection: React.FC<LargeSectionProps> = (props: LargeSectionPro
 				maxWidth: '960px'
 			}}>
 				<IonRow>
-					<IonCol sizeSm="12" sizeMd="6">
+					<IonCol size="12" sizeMd="6">
 						{props.children[0]}
 					</IonCol>
-					<IonCol sizeSm="12" sizeMd="6">
+					<IonCol size="12" sizeMd="6">
 						{props.children[1]}
 					</IonCol>
 				</IonRow>
