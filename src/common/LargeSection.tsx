@@ -9,35 +9,45 @@ import {
 } from '@ionic/react';
 
 
+// =============================================================================
 export const LargeSectionText = styled.div`
 	text-align: center;
-	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
 
+// =============================================================================
 export const LargeSectionTextTitle = styled.h2`
 	font-size: 47px;
 	font-weight: 700;
 	margin-bottom: 15px;
 	letter-spacing: -.02em;
+	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
+
+// =============================================================================
 export const LargeSectionTextBody = styled.p`
 	color: var(--ion-color-medium-shade);
 	font-size: 22px;
 	line-height: 36px;
 	margin-bottom: 23px;
 	letter-spacing: -.02em;
+	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
+
+// =============================================================================
 export const LargeSectionTextSubtext = styled.div`
 	color: var(--ion-color-medium);
 	font-size: 16px;
 	margin-bottom: 8px;
 	line-height: 1.78em;
 	letter-spacing: -.028em;
+	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
+
+// =============================================================================
 type LargeSectionTextButtonProps = {
 	url: string;
 	history: History;
@@ -45,7 +55,7 @@ type LargeSectionTextButtonProps = {
 
 export const LargeSectionTextButton: React.FC<LargeSectionTextButtonProps> = (props: LargeSectionTextButtonProps) => {
 	return (
-		<IonButton onClick={(e) => {
+		<IonButton size="large" onClick={(e) => {
 			e.preventDefault();
 			props.history.push(props.url);
 		}}
@@ -55,6 +65,8 @@ export const LargeSectionTextButton: React.FC<LargeSectionTextButtonProps> = (pr
 	)
 }
 
+
+// =============================================================================
 type LargeSectionProps = {
 	children: React.ReactNode[];
 };
