@@ -7,7 +7,6 @@ import {
 	LargeSectionText,
 	LargeSectionTextTitle,
 	LargeSectionTextBody,
-	LargeSectionTextSubtext,
 	LargeSectionTextButton
 } from '../../common/LargeSection';
 import LargeSectionImage from '../../common/LargeSectionImage';
