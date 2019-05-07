@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem } from '@ionic/react';
+import { IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonIcon } from '@ionic/react';
 import { PAGE_ROUTES } from './pageRoutes';
 import { History } from 'history';
 import { withRouter } from 'react-router-dom';
@@ -33,6 +33,7 @@ const Menu: React.SFC<Props> = ({ history }) => {
 								history.push(pageRoute.path);
 							}}
 							>
+								{pageRoute.icon && <IonIcon slot="start" name={pageRoute.icon}></IonIcon>}
 								{pageRoute.title}
 							</IonItem>
 						))}

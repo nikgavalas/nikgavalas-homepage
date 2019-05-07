@@ -8,16 +8,16 @@ export const PAGE_ROUTES: PageRoute[] = [
 	{
 		path: '/software',
 		title: 'Software',
-		icon: ''
+		icon: 'code'
 	},
 	{
 		path: '/music',
 		title: 'Music',
-		icon: ''
+		icon: 'musical-notes'
 	},
 	{
-		path: '/about',
-		title: 'About',
-		icon: ''
+		path: '/aviation',
+		title: 'Aviation',
+		icon: 'airplane'
 	},
 ];

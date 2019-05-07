@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonHeader, IonToolbar, IonButtons, IonMenuButton, IonButton } from '@ionic/react';
+import { IonHeader, IonToolbar, IonButtons, IonMenuButton, IonButton, IonIcon } from '@ionic/react';
 import { withRouter } from 'react-router-dom';
 import { History } from 'history';
 import { PAGE_ROUTES } from './pageRoutes';
@@ -8,11 +8,11 @@ interface Props {
 	history: History;
 }
 
-const Header: React.SFC<Props> = ({ history }) => {
+const Header: React.FC<Props> = ({ history }) => {
 	return (
 		<>
 			<IonHeader>
-				<IonToolbar>
+				<IonToolbar color="primary">
 					<IonButtons slot="start">
 						<IonMenuButton class="ion-hide-lg-up"></IonMenuButton>
 						<IonButton onClick={(e) => {
@@ -30,6 +30,7 @@ const Header: React.SFC<Props> = ({ history }) => {
 								history.push(pageRoute.path);
 							}}
 							>
+								{pageRoute.icon && <IonIcon slot="start" name={pageRoute.icon}></IonIcon>}
 								{pageRoute.title}
 							</IonButton>
 						))}
