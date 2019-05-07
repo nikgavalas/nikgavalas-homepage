@@ -12,6 +12,7 @@ import {
 } from '../../common/LargeSection';
 import LargeSectionImage from '../../common/LargeSectionImage';
 import { History } from 'history';
+import BannerSection, { BannerSectionTitle, BannerSectionSubtitle } from '../../common/BannerSection';
 
 type HomePageProps = {
 	history: History;
@@ -23,15 +24,17 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 	return (
 		<>
 			<IonContent>
-				<img src="assets/img/me.jpg" alt="Me!" />
+				<BannerSection imgPath='assets/img/me.jpg'>
+					<BannerSectionTitle>Nik Gavalas</BannerSectionTitle>
+					<BannerSectionSubtitle>Coder. Musician. Pilot.</BannerSectionSubtitle>
+				</BannerSection>
 
 				<LargeSection>
-					<LargeSectionImage align="left"></LargeSectionImage>
+					<LargeSectionImage align='left'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>&lt;Code/&gt;</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
-						<LargeSectionTextSubtext>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis auctor lorem non egestas. Mauris non rhoncus urna. Nunc convallis.</LargeSectionTextSubtext>
-						<LargeSectionTextButton url="/software" history={props.history}></LargeSectionTextButton>
+						<LargeSectionTextButton url='/software' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
 				</LargeSection>
 
@@ -39,19 +42,17 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 					<LargeSectionText>
 						<LargeSectionTextTitle>Music</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
-						<LargeSectionTextSubtext>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis auctor lorem non egestas. Mauris non rhoncus urna. Nunc convallis.</LargeSectionTextSubtext>
-						<LargeSectionTextButton url="/music" history={props.history}></LargeSectionTextButton>
+						<LargeSectionTextButton url='/music' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
-					<LargeSectionImage align="right"></LargeSectionImage>
+					<LargeSectionImage align='right'></LargeSectionImage>
 				</LargeSection>
 
 				<LargeSection>
-					<LargeSectionImage align="left"></LargeSectionImage>
+					<LargeSectionImage align='left'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>Aviation</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
-						<LargeSectionTextSubtext>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis auctor lorem non egestas. Mauris non rhoncus urna. Nunc convallis.</LargeSectionTextSubtext>
-						<LargeSectionTextButton url="/about" history={props.history}></LargeSectionTextButton>
+						<LargeSectionTextButton url='/about' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
 				</LargeSection>
 
