@@ -44,7 +44,7 @@ const DetailsModal: React.FC<DetailsModalProps> = (props: DetailsModalProps) => 
 					<IonGrid>
 						<IonRow>
 							<IonCol sizeSm="12" sizeMd="3">
-								<img src="https://via.placeholder.com/200/09f/fff.png" />
+								<img src="https://via.placeholder.com/200/09f/fff.png" alt="project" />
 							</IonCol>
 							<IonCol sizeSm="12" sizeMd="9">
 								<h3>{props.title}</h3>

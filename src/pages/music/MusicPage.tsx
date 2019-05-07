@@ -1,10 +1,13 @@
 import React from 'react';
 import { IonContent } from '@ionic/react';
-import Section from '../../common/Section';
 
-export default function MusicPage() {
 
-	// ============================================================================
+// ============================================================================
+type MusicPageProps = {
+	history: History;
+};
+
+const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 	return (
 		<>
 			<IonContent>
@@ -13,3 +16,5 @@ export default function MusicPage() {
 		</>
 	)
 }
+
+export default MusicPage;

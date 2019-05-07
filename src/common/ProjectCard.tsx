@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props: ProjectCardProps) => {
 	return (
 		<>
 			<IonCard>
-				<img src="https://via.placeholder.com/200/09f/fff.png" />
+				<img src="https://via.placeholder.com/200/09f/fff.png" alt="card" />
 				<IonCardHeader>
 					<IonCardTitle style={{ height: '50px' }}>{props.title}</IonCardTitle>
 					<IonCardSubtitle>{props.subtitle}</IonCardSubtitle>

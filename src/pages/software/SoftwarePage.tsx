@@ -1,7 +1,6 @@
 import React from 'react';
 import { IonContent, IonRow, IonCol } from '@ionic/react';
 import Section from '../../common/Section';
-import SectionItem from '../../common/SectionItem';
 import ProjectCard from '../../common/ProjectCard';
 
 export default function SoftwarePage() {

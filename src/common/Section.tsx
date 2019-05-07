@@ -4,7 +4,6 @@ import {
 	IonRow,
 	IonCol
 } from '@ionic/react';
-import SectionItem, { SectionItemProps } from './SectionItem';
 
 type SectionProps = {
 	background?: string;
