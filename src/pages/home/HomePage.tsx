@@ -29,7 +29,7 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 				</BannerSection>
 
 				<LargeSection>
-					<LargeSectionImage align='left'></LargeSectionImage>
+					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>&lt;Code/&gt;</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
@@ -43,11 +43,11 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
 						<LargeSectionTextButton url='/music' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
-					<LargeSectionImage align='right'></LargeSectionImage>
+					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
 				</LargeSection>
 
 				<LargeSection>
-					<LargeSectionImage align='left'></LargeSectionImage>
+					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>Aviation</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
