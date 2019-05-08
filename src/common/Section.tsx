@@ -4,7 +4,18 @@ import {
 	IonRow,
 	IonCol
 } from '@ionic/react';
+import { LargeSectionTextTitle } from './LargeSection';
+import styled from 'styled-components';
 
+
+// =============================================================================
+export const SectionText = styled.div`
+	color: var(--ion-color-dark-tint);
+	font-size: 18px;
+`;
+
+
+// =============================================================================
 type SectionProps = {
 	background?: string;
 	title: string;
@@ -25,7 +36,7 @@ const Section: React.FC<SectionProps> = (props: SectionProps) => {
 			}}>
 				<IonRow>
 					<IonCol class="ion-text-center ion-margin">
-						<h1 className="ion-text-uppercase">{props.title}</h1>
+						<LargeSectionTextTitle>{props.title}</LargeSectionTextTitle>
 					</IonCol>
 				</IonRow>
 				{props.children}

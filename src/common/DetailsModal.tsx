@@ -11,6 +11,7 @@ import {
 	IonCol,
 	IonRow
 } from '@ionic/react';
+import { ProjectTypographyImage, ProjectTypographyTitle, ProjectTypographySubtitle, ProjectTypographyBody, ProjectTypographyTech } from './ProjectTypography';
 
 
 type DetailsModalProps = {
@@ -44,27 +45,29 @@ const DetailsModal: React.FC<DetailsModalProps> = (props: DetailsModalProps) => 
 					<IonGrid>
 						<IonRow>
 							<IonCol sizeSm="12" sizeMd="3">
-								<img src="https://via.placeholder.com/200/09f/fff.png" alt="project" />
+								<ProjectTypographyImage src="https://via.placeholder.com/200/09f/fff.png" alt="card"></ProjectTypographyImage>
 							</IonCol>
 							<IonCol sizeSm="12" sizeMd="9">
-								<h3>{props.title}</h3>
-								<h4>{props.subtitle}</h4>
-								<h4>{props.extra}</h4>
+								<ProjectTypographyTitle>{props.title}</ProjectTypographyTitle>
+								<ProjectTypographySubtitle>{props.subtitle}</ProjectTypographySubtitle>
+								<ProjectTypographySubtitle>{props.extra}</ProjectTypographySubtitle>
 							</IonCol>
 						</IonRow>
 						<IonRow>
 							<IonCol>
-								<p>{props.summary}</p>
-								<ul style={{
-									listStyleType: 'square',
-									listStylePosition: 'inside',
-									margin: 0,
-									padding: 0
-								}}>
-									{props.bullets.map((bullet, index) =>
-										<li key={index}>{bullet}</li>
-									)}
-								</ul>
+								<ProjectTypographyBody>{props.summary}</ProjectTypographyBody>
+								<ProjectTypographyTech>
+									<ul style={{
+										listStyleType: 'square',
+										listStylePosition: 'inside',
+										margin: 0,
+										padding: 0
+									}}>
+										{props.bullets.map((bullet, index) =>
+											<li key={index}>{bullet}</li>
+										)}
+									</ul>
+								</ProjectTypographyTech>
 							</IonCol>
 						</IonRow>
 					</IonGrid>
