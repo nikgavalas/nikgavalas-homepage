@@ -29,7 +29,7 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 				</BannerSection>
 
 				<LargeSection>
-					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
+					<LargeSectionImage imgSource='assets/img/software-square.jpg'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>&lt;Code/&gt;</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
@@ -43,11 +43,11 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>
 						<LargeSectionTextButton url='/music' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
-					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
+					<LargeSectionImage imgSource='assets/img/music-square.jpg'></LargeSectionImage>
 				</LargeSection>
 
 				<LargeSection>
-					<LargeSectionImage imgSource='https://via.placeholder.com/400/09f/fff.png'></LargeSectionImage>
+					<LargeSectionImage imgSource='assets/img/erj145.jpg'></LargeSectionImage>
 					<LargeSectionText>
 						<LargeSectionTextTitle>Aviation</LargeSectionTextTitle>
 						<LargeSectionTextBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at massa arcu. Nunc erat urna, porttitor vehicula quam nec, tempus sodales ligula. Sed sodales ultricies tortor. Etiam ullamcorper urna at sem aliquet efficitur in porta tortor. Aliquam a urna in purus facilisis rhoncus. </LargeSectionTextBody>

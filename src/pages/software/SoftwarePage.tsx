@@ -11,7 +11,7 @@ export default function SoftwarePage() {
 	return (
 		<>
 			<IonContent>
-				<BannerSection imgPath='assets/img/me.jpg'>
+				<BannerSection imgPath='assets/img/software.jpg'>
 					<BannerSectionTitle>&lt;Code/&gt;</BannerSectionTitle>
 					<BannerSectionSubtitle>Code it all!</BannerSectionSubtitle>
 				</BannerSection>

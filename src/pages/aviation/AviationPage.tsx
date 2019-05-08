@@ -13,7 +13,7 @@ const AviationPage: React.FC<AviationPageProps> = (props: AviationPageProps) => 
 	return (
 		<>
 			<IonContent>
-				<BannerSection imgPath='assets/img/me.jpg'>
+				<BannerSection imgPath='assets/img/aviation.jpg'>
 					<BannerSectionTitle>Aviation</BannerSectionTitle>
 					<BannerSectionSubtitle>From Flight Instructor to airline First Officer</BannerSectionSubtitle>
 				</BannerSection>

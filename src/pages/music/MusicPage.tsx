@@ -13,7 +13,7 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 	return (
 		<>
 			<IonContent>
-				<BannerSection imgPath='assets/img/me.jpg'>
+				<BannerSection imgPath='assets/img/music.jpg'>
 					<BannerSectionTitle>Music</BannerSectionTitle>
 					<BannerSectionSubtitle>Metal guitarist/composer; and a full time dreamer</BannerSectionSubtitle>
 				</BannerSection>
