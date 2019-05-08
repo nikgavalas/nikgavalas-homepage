@@ -45,6 +45,13 @@ export const LargeSectionTextSubtext = styled.div`
 
 
 // =============================================================================
+const LargeSectionWrapper = styled.div`
+	margin-top: 180px;
+	margin-bottom: 50px;
+`;
+
+
+// =============================================================================
 type LargeSectionTextButtonProps = {
 	url: string;
 	history: History;
@@ -76,12 +83,8 @@ export const LargeSection: React.FC<LargeSectionProps> = (props: LargeSectionPro
 	}
 
 	return (
-		<>
-			<IonGrid fixed style={{
-				paddingTop: '176px',
-				paddingBottom: '176px',
-				maxWidth: '960px'
-			}}>
+		<LargeSectionWrapper>
+			<IonGrid style={{ maxWidth: '960px' }}>
 				<IonRow>
 					<IonCol size="12" sizeLg="6">
 						{props.children[0]}
@@ -91,6 +94,6 @@ export const LargeSection: React.FC<LargeSectionProps> = (props: LargeSectionPro
 					</IonCol>
 				</IonRow>
 			</IonGrid>
-		</>
+		</LargeSectionWrapper>
 	);
 };
