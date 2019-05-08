@@ -21,7 +21,6 @@ export const LargeSectionTextTitle = styled.h2`
 	font-weight: 700;
 	margin-bottom: 15px;
 	letter-spacing: -.02em;
-	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
 
@@ -32,7 +31,6 @@ export const LargeSectionTextBody = styled.p`
 	line-height: 36px;
 	margin-bottom: 23px;
 	letter-spacing: -.02em;
-	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
 
@@ -43,7 +41,6 @@ export const LargeSectionTextSubtext = styled.div`
 	margin-bottom: 8px;
 	line-height: 1.78em;
 	letter-spacing: -.028em;
-	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif;
 `;
 
 

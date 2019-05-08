@@ -28,9 +28,7 @@ const BannerSection: React.FC<BannerSectionProps> = (props: BannerSectionProps) 
 	const BANNER_HEIGHT = '500px';
 
 	return (
-		<div style={{
-			fontFamily: 'Eina,"Helvetica Neue",Helvetica,sans-serif'
-		}}>
+		<div>
 			<IonGrid style={{ padding: '0' }}>
 				<IonRow style={{ padding: '0' }}>
 					<IonCol size="12" sizeMd="7" style={{ padding: '0' }}>
