@@ -1,4 +1,4 @@
-interface PageRoute {
+export interface PageRoute {
 	path: string;
 	title: string;
 	icon: string;

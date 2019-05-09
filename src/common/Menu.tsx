@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonIcon } from '@ionic/react';
-import { PAGE_ROUTES } from './pageRoutes';
+import { PAGE_ROUTES, PageRoute } from './pageRoutes';
 import { History } from 'history';
 import { withRouter } from 'react-router-dom';
 
@@ -8,8 +8,14 @@ interface Props {
 	history: History;
 }
 
-const Menu: React.SFC<Props> = ({ history }) => {
+const Menu: React.FC<Props> = ({ history }) => {
 	const menuEl = useRef<HTMLIonMenuElement>(null);
+
+	const menuLinks: PageRoute[] = [{
+		path: '/',
+		title: 'Home',
+		icon: 'home'
+	}, ...PAGE_ROUTES];
 
 	return (
 		<>
@@ -21,7 +27,7 @@ const Menu: React.SFC<Props> = ({ history }) => {
 				</IonHeader>
 				<IonContent>
 					<IonList>
-						{PAGE_ROUTES.map(pageRoute => (
+						{menuLinks.map(pageRoute => (
 							<IonItem key={pageRoute.path} onClick={(e) => {
 								e.preventDefault();
 
