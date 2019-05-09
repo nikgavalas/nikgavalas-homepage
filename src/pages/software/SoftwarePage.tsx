@@ -1,6 +1,6 @@
 import React from 'react';
-import { IonContent, IonRow, IonCol } from '@ionic/react';
-import Section, { SectionText } from '../../common/Section';
+import { IonContent } from '@ionic/react';
+import Section from '../../common/Section';
 import ProjectCard from '../../common/ProjectCard';
 import BannerSection, { BannerSectionTitle, BannerSectionSubtitle } from '../../common/BannerSection';
 import SkillList from './SkillList';
@@ -13,19 +13,8 @@ export default function SoftwarePage() {
 			<IonContent>
 				<BannerSection imgPath='assets/img/software.jpg'>
 					<BannerSectionTitle>&lt;Code/&gt;</BannerSectionTitle>
-					<BannerSectionSubtitle>Code it all!</BannerSectionSubtitle>
+					<BannerSectionSubtitle>From video games to full stack and everywhere in-between</BannerSectionSubtitle>
 				</BannerSection>
-
-				<Section title='About Me'>
-					<IonRow>
-						<IonCol size="12">
-							<SectionText>
-								I've been writing code professionally for 20 years. In this industry, learning and applying information is
-								an absolute must! TODO: Write more
-							</SectionText>
-						</IonCol>
-					</IonRow>
-				</Section>
 
 				<Section title='Skillset (Sorted Alphabetically)'>
 					<SkillList title="Languages">
