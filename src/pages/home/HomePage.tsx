@@ -82,7 +82,7 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 						<LargeSectionTextBody>
 							Being an Airline Pilot had been a life long dream of mine since as long as I can remember. After 5 years at EA, I finally had an opportunity to make that dream a reality! It was an amazing experience that I love to share with people, especially paired with beer.
 						</LargeSectionTextBody>
-						<LargeSectionTextButton url='/about' history={props.history}></LargeSectionTextButton>
+						<LargeSectionTextButton url='/aviation' history={props.history}></LargeSectionTextButton>
 					</LargeSectionText>
 				</LargeSection>
 
