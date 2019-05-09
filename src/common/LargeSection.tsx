@@ -21,6 +21,11 @@ export const LargeSectionTextTitle = styled.h2`
 	font-weight: 700;
 	margin-bottom: 15px;
 	letter-spacing: -.02em;
+
+	@media (max-width: 576px) {
+		font-size: 40px;
+	}
+
 `;
 
 
@@ -31,6 +36,10 @@ export const LargeSectionTextBody = styled.p`
 	line-height: 36px;
 	margin-bottom: 23px;
 	letter-spacing: -.02em;
+
+	@media (max-width: 576px) {
+		font-size: 18px;
+	}
 `;
 
 

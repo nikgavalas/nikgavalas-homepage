@@ -11,10 +11,10 @@ type SkillListProps = {
 export const SkillList: React.FC<SkillListProps> = (props: SkillListProps) => {
 	return (
 		<IonRow>
-			<IonCol size="4" sizeMd="2">
+			<IonCol size="4" sizeLg="2">
 				<SectionText><strong>{props.title}</strong></SectionText>
 			</IonCol>
-			<IonCol size="8" sizeMd="10">
+			<IonCol size="8" sizeLg="10">
 				<SectionText>{props.children}</SectionText>
 			</IonCol>
 		</IonRow>

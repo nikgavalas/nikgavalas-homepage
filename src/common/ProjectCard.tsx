@@ -31,10 +31,12 @@ const ProjectTypography: React.FC<ProjectTypographyProps> = (props: ProjectTypog
 		<ProjectTypographyWrapper>
 			<IonGrid>
 				<IonRow>
-					<IonCol sizeSm="12" sizeMd="3">
-						<ProjectTypographyImage src={props.img} alt="card"></ProjectTypographyImage>
+					<IonCol size="12" sizeLg="3">
+						<div style={{textAlign: 'center'}}>
+							<ProjectTypographyImage src={props.img} alt="card"></ProjectTypographyImage>
+						</div>
 					</IonCol>
-					<IonCol sizeSm="12" sizeMd="9">
+					<IonCol size="12" sizeLg="9">
 						<ProjectTypographyTitle>{props.company}</ProjectTypographyTitle>
 						<ProjectTypographySubtitle>{props.position}</ProjectTypographySubtitle>
 						<ProjectTypographySubtitle>{props.time}</ProjectTypographySubtitle>

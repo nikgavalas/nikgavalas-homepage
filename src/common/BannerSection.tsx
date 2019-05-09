@@ -31,14 +31,14 @@ const BannerSection: React.FC<BannerSectionProps> = (props: BannerSectionProps) 
 		<div>
 			<IonGrid style={{ padding: '0' }}>
 				<IonRow style={{ padding: '0' }}>
-					<IonCol size="12" sizeMd="7" style={{ padding: '0' }}>
+					<IonCol size="12" sizeLg="7" style={{ padding: '0' }}>
 						<div style={{
 							background: `url(${props.imgPath}) center no-repeat`,
 							height: BANNER_HEIGHT
 						}}
 						></div>
 					</IonCol>
-					<IonCol size="12" sizeMd="5" style={{ padding: '0' }}>
+					<IonCol size="12" sizeLg="5" style={{ padding: '0' }}>
 						<div style={{
 							background: 'var(--ion-color-primary-tint)',
 							textAlign: 'center',
