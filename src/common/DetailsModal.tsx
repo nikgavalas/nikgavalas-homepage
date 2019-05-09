@@ -20,6 +20,7 @@ type DetailsModalProps = {
 	title: string;
 	subtitle: string;
 	summary: string;
+	img: string;
 	extra?: string;
 	bullets: string[]
 };
@@ -45,7 +46,7 @@ const DetailsModal: React.FC<DetailsModalProps> = (props: DetailsModalProps) => 
 					<IonGrid>
 						<IonRow>
 							<IonCol sizeSm="12" sizeMd="3">
-								<ProjectTypographyImage src="https://via.placeholder.com/200/09f/fff.png" alt="card"></ProjectTypographyImage>
+								<ProjectTypographyImage src={props.img} alt="card"></ProjectTypographyImage>
 							</IonCol>
 							<IonCol sizeSm="12" sizeMd="9">
 								<ProjectTypographyTitle>{props.title}</ProjectTypographyTitle>

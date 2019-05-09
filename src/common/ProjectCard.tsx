@@ -20,6 +20,7 @@ type ProjectTypographyProps = {
 	time: string;
 	summary: string;
 	tech: string;
+	img: string;
 	bullets: string[]
 };
 
@@ -31,7 +32,7 @@ const ProjectTypography: React.FC<ProjectTypographyProps> = (props: ProjectTypog
 			<IonGrid>
 				<IonRow>
 					<IonCol sizeSm="12" sizeMd="3">
-						<ProjectTypographyImage src="https://via.placeholder.com/200/09f/fff.png" alt="card"></ProjectTypographyImage>
+						<ProjectTypographyImage src={props.img} alt="card"></ProjectTypographyImage>
 					</IonCol>
 					<IonCol sizeSm="12" sizeMd="9">
 						<ProjectTypographyTitle>{props.company}</ProjectTypographyTitle>
@@ -53,6 +54,7 @@ const ProjectTypography: React.FC<ProjectTypographyProps> = (props: ProjectTypog
 				subtitle={props.position}
 				extra={props.time}
 				summary={props.summary}
+				img={props.img}
 				bullets={props.bullets}
 				shouldShowModal={shouldShowModal}
 				setShouldShowModal={setShouldShowModal} />

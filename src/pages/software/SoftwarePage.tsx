@@ -44,6 +44,7 @@ export default function SoftwarePage() {
 						time='Remote, (2/2016 - Present)'
 						summary='Lead system architect and engineer responsible for systems design, coding, and mentoring colleagues'
 						tech='C#, SQL, Angular, Ionic, NodeJS, AWS'
+						img='assets/img/bestfriends.jpg'
 						bullets={[
 							'Designed and currently coding the data lake for data acquisition, analytics, and integration to 3rd party SAAS websites',
 							'Single handedly ported all data from our various shelter systems into one system using creative coding solutions to solve a vast number of issues',
@@ -60,6 +61,7 @@ export default function SoftwarePage() {
 						time='Remote (10/2013 - 10/2015)'
 						summary='Lead UI engineer responsible for design and implementation of the frontend interface for the server simulation engine, which allows users to create military training scenarios by placing friendly and hostile units, map geometry, and mission orders'
 						tech='AngularJS, C++, Bootstrap, LeafletJS'
+						img='assets/img/stilman.jpg'
 						bullets={[
 							'Redesigned and engineered the frontend interface from scratch',
 							'Built the mapping and animation engine on top of LeafletJS to display map geometry, units as markers, engagements with enemy forces, casualties and health of all units, as well as animate unit routes',
@@ -77,6 +79,7 @@ export default function SoftwarePage() {
 						time='Remote (11/2008 - 10/2013)'
 						summary='During my aviation career, I developed web solutions and enhancements for a variety of client needs. Used a combination of PHP, SQL, Javascript, and jQuery'
 						tech='PHP, SQL, Javascript, and jQuery'
+						img='assets/img/freelance.jpg'
 						bullets={[
 							'Onedotabove.com – Designed and built an aviation web application that allows instructors to create customized lessons and track student progress through multiple curriculums. Used jQuery/jQueryUI, PHP, and SQL',
 							'Westboundcommunications.com – Built a custom theme for Wordpress site and created a plugin for the client to upload and edit information laid out in a timeline format. Used jQuery, PHP, and SQL',
@@ -91,6 +94,7 @@ export default function SoftwarePage() {
 						time='Los Angeles, CA &amp; Vancouver, BC (10/2003 - 11/2008)'
 						summary='Shipped 4 games in 5 years. Excellent generalist engineer able to work in a variety of different areas. Dependability earned me the nick-name "Rock Solid."'
 						tech='C++, C#, XML, Flash, Actionscript'
+						img='assets/img/ea.jpg'
 						bullets={[
 							'Red Alert 3 (PC, Xbox360) – Shipped 10/2008: Tools and Pipeline using C# and MFC; Graphics using FX shaders and C++; Gameplay using C++/XML/XSD; Optimization using PIX, Xbperfview, and VTune; UI using Flash/Actionscript/C++',
 							'Command & Conquer 3 (Xbox360) – Shipped 5/2007: Lead UI programmer using Flash/Actionscript/C++',
@@ -106,6 +110,7 @@ export default function SoftwarePage() {
 						time='Long Beach, CA (8/2001 - 5/2002)'
 						summary='Supervised and instructed students for the lab portion of the Assembly Level Programing course. Also, taught one class pertaining to game programming in Assembly for Windows'
 						tech='Assembly (x86), Windows32 API from Assembly, Direct3D'
+						img='assets/img/csulb.jpg'
 						bullets={[
 							'Conducted impromptu lectures for things relevant to the entire class for their projects',
 							'Provided one-on-one instruction for students\' projects',
@@ -120,6 +125,7 @@ export default function SoftwarePage() {
 						time='Fair Oaks, CA'
 						summary='Performed programming and network administration tasks for a start-up company specializing in audio speakers and input devices'
 						tech='C++, Windows32 API, Direct3D'
+						img='assets/img/porrazzo.jpg'
 						bullets={[
 							'Led a team of programmers to design and implement a new serial-port joystick device driver for Windows 95, 98,	and ME. The new device driver allowed users to move their hands in front of custom speakers to control the X, Y, and Z axis and up to four buttons. Implemented the driver using low level assembly, C, VJoy, and VxD’s',
 							'Developed 3D multimedia software and video game interfaces using DirectX for demonstrating the new 3-axis, 4 button joystick',
@@ -145,6 +151,7 @@ export default function SoftwarePage() {
 						time='Remote (1/2019 - Present)'
 						summary='Ionic 4 app that applies music theory principles to allow users to build complex chord progressions in any key. Currently written in Angular but I am porting it to React'
 						tech='Angular 7, Ionic, AWS, React/Redux conversion in progress'
+						img='assets/img/nextchordapp.jpg'
 						bullets={[
 							'Utilizes functional harmony, borrowed chords, secondary dominant/diminished chords, common tone chords and more',
 							'Allows user to playback the chord progression in the browser and edit voice leading',
@@ -159,6 +166,7 @@ export default function SoftwarePage() {
 						time='Remote (10/2016 - Present)'
 						summary='Condo management system for the strata council, managers, and unit owners to communicate, manage units and occupants, and share documents'
 						tech='Angular 4, PHP, Slim Rest Api framework, JWT, MaterializeCSS, AWS, Stripe, Mailgun'
+						img='assets/img/stratawork.jpg'
 						bullets={[
 							'Angular 4 frontend built on top of MaterializeCSS framework',
 							'PHP Backend for user login, document storage, and database management',
@@ -174,6 +182,7 @@ export default function SoftwarePage() {
 						time='Remote (9/2014 - 1/2016)'
 						summary='Simulator to run large numbers of trading strategies on user defined lists of stocks. For each day a buy list is generated for the stocks that have the highest probability to win based on the strategies run'
 						tech='C#, JSON.NET, AngularJS, Bootstrap, and the Highstocks charting plugin'
+						img='assets/img/stock.jpg'
 						bullets={[
 							'Strategies can depend on other strategies which allows for easy implementation of chained complex strategies',
 							'Made a strategy to analyze the success of all permutations of entry signals from a variety of different indicators',
@@ -187,6 +196,7 @@ export default function SoftwarePage() {
 						time='Remote (10/1998 – 04/2002)'
 						summary='Developed a Nintendo Entertainment System (NES) Emulator for Windows / DirectX. I started it during my first semester at college and then rewrote it during my last semester at college. An instructional paper was also written'
 						tech='C++, DirectX, Assembly (x86 and 6502), Windows32 API'
+						img='assets/img/nes.jpg'
 						bullets={[
 							'Emulator used .dll plugins to implement the various memory mappers that the NES used',
 							'NES’s 6502 Motorola CPU was emulated in x86 assembly language',
