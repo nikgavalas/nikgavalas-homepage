@@ -45,9 +45,16 @@ export const LargeSectionTextSubtext = styled.div`
 
 
 // =============================================================================
+export const LargeSectionAudio = styled.div`
+	margin: 30px auto;
+	max-width: 350px;
+`;
+
+
+// =============================================================================
 const LargeSectionWrapper = styled.div`
-	margin-top: 180px;
-	margin-bottom: 50px;
+	margin-top: 120px;
+	margin-bottom: 160px;
 `;
 
 
