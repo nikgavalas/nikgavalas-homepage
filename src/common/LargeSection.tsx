@@ -66,7 +66,7 @@ type LargeSectionTextButtonProps = {
 
 export const LargeSectionTextButton: React.FC<LargeSectionTextButtonProps> = (props: LargeSectionTextButtonProps) => {
 	return (
-		<IonButton size="large" onClick={(e) => {
+		<IonButton onClick={(e) => {
 			e.preventDefault();
 			props.history.push(props.url);
 		}}
