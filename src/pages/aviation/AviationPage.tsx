@@ -24,7 +24,7 @@ const AviationPage: React.FC<AviationPageProps> = (props: AviationPageProps) => 
 						<LargeSectionTextTitle>Republic Airways</LargeSectionTextTitle>
 						<LargeSectionTextBody>
 							Based out of Kansas City and Denver I was a First Officer on the Bombardier Q400. I earned my ATP license and
-							my Q400 type rating here. Flying in and our of the Rocky Mountains was both exciting and challenging. Ultimately,
+							my Q400 type rating here. Flying in and out of the Rocky Mountains was both exciting and challenging. Ultimately,
 							being away from home so often was what led me to hang up my wings. Flying in and out of Jackson Hole in Yellowstone was
 							amazing! I wouldn't trade the sights and experiences for anything in the world!
 						</LargeSectionTextBody>
@@ -35,7 +35,7 @@ const AviationPage: React.FC<AviationPageProps> = (props: AviationPageProps) => 
 					<LargeSectionText>
 						<LargeSectionTextTitle>American Eagle Airlines</LargeSectionTextTitle>
 						<LargeSectionTextBody>
-							Based out of Dallas and Los Angeles this was my stop as an airline First Officer. The learning curve was like trying
+							Based out of Dallas and Los Angeles this was my first stop as an airline First Officer. The learning curve was like trying
 							to take a sip of water from a firehose! Ultimately, I finished with high remarks and began an amazing journey. My trips
 							often took me all over the US and Mexico with each flight providing a new experience.
 						</LargeSectionTextBody>

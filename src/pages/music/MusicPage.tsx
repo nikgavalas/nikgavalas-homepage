@@ -26,7 +26,7 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 								The final project of the <a href="artofcomposing.com">Art of Composing</a> Sonata Form course was to, well,
 								write a Sonata. I decided to do it in Metal! I will say this is an early attempt at recording and mixing and
 								it's not done very well. The structure and harmony is based off of Beethoven's first piano sonata and in my version
-								it tells the story of a very bad dream Beethoven had of the future of music. He has a brief reprieve, followed
+								it tells the story of a very bad dream Beethoven had regarding the future of music. He has a brief reprieve, followed
 								by a deeper nightmare.
 							</LargeSectionTextBody>
 						</LargeSectionText>
@@ -39,7 +39,7 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 						<LargeSectionText>
 							<LargeSectionTextTitle>Flight of the Bumblebee</LargeSectionTextTitle>
 							<LargeSectionTextBody>
-								A cover of Flight of the Bumblebee adapted for guitar and overloaded with distortion! All picked, no hammer-ons
+								A cover of Flight of the Bumblebee adapted for guitar and overloaded with distortion! All picked with no hammer-ons
 								or pull-offs, that would just be cheating.
 							</LargeSectionTextBody>
 						</LargeSectionText>
@@ -53,7 +53,7 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 							<LargeSectionTextTitle>Metal Groove</LargeSectionTextTitle>
 							<LargeSectionTextBody>
 								A simple groove I made to try and improve on recording and mixing.
-								I eventually got some great help from the guys at Presets for all.
+								I eventually got some great help from the guys at Presets for all to help it sound better.
 							</LargeSectionTextBody>
 						</LargeSectionText>
 						<LargeSectionAudio>
@@ -72,7 +72,7 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 							<LargeSectionTextBody>
 								First short small ternary piece I wrote for the final project from my online course at&nbsp;
 								<a href="artofcomposing.com">Art of Composing</a>. At the time, I was thinking of my daughter
-								prancing around telling everyone what to do.
+								prancing around the house telling everyone what to do.
 							</LargeSectionTextBody>
 						</LargeSectionText>
 						<LargeSectionAudio>
@@ -85,8 +85,8 @@ const MusicPage: React.FC<MusicPageProps> = (props: MusicPageProps) => {
 							<LargeSectionTextTitle>Borrowed Time</LargeSectionTextTitle>
 							<LargeSectionTextBody>
 								Second short small ternary piece I wrote for the final project from my online course at&nbsp;
-								<a href="artofcomposing.com">Art of Composing</a>. The name is because it uses borrowed chords
-								and the rhythm is based of the tick tock of a clock.
+								<a href="artofcomposing.com">Art of Composing</a>. It is named Borrowed Time because it uses borrowed chords
+								and the rhythm is meant to resemble the tick tock of a clock.
 							</LargeSectionTextBody>
 						</LargeSectionText>
 						<LargeSectionAudio>

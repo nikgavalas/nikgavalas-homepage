@@ -37,16 +37,16 @@ const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
 									I've been writing code professionally for 20 years. I first started with a love and passion for video games. NES was the video game system I grew up with and when I learned to code in High School, I started work on coding an NES Emulator. I finished it and then rewrote and improved it for a college self-directed course.
 								</p>
 								<p>
-									My first job after college was working for Electronic Arts in Vancouver, Canada. I learned a ton there and transferred down to the LA offices to work on RTS games. I met a lot of great people whom I'm still Friends with today. While at EA, I finally started my pilot training (which had been a life long dream). Little did I know...
+									My first job after college was working for Electronic Arts in Vancouver, Canada. I learned a ton there and transferred down to the LA offices to work on RTS games. I met a lot of great people whom I'm still friends with today. While at EA, I finally started my pilot training (which had been a life long dream). Little did I know...
 								</p>
 								<p>
-									As I completed more pilot training, I couldn't resist the urge to try and make a living flying professionally. I figured I only have one chance to try this before it's too late so, I made the difficult choice to completely change careers.
+									As I completed more pilot training, I couldn't resist the urge to try and make a living flying. I figured I only get one chance to try this before it's too late so, I made the difficult choice to completely change careers.
 								</p>
 								<p>
-									Flying was a blast and the experiences were once in a lifetime! I wouldn't trade those in for anything in the world. I stayed busy working side coding jobs in my off days and during long overnights. Ultimately, being away from home so much and my passion for coding took over and it was time to return to my Software Engineering career.
+									Flying was a blast and the experiences were once in a lifetime! I wouldn't trade those in for anything in the world. I stayed busy working side coding jobs on my off days and during long overnights. Ultimately, being away from home so much and my passion for coding took over and it was time to return to my Software Engineering career.
 								</p>
 								<p>
-								I am now more currently focused on Full Stack development and I look forward to seeing where the future takes me!
+								I am mostly focused on Full Stack development but I feel like I can learn and do just about anything these days. I look forward to seeing where the future takes me!
 								</p>
 							</SectionText>
 						</IonCol>
