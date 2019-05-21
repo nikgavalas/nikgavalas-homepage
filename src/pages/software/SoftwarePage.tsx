@@ -40,7 +40,7 @@ export default function SoftwarePage() {
 				<Section title='Professional Experience'>
 					<ProjectCard
 						company='Best Friends Animal Society'
-						position='Senior Application Architect'
+						position='Senior Software Engineer'
 						time='Remote, (2/2016 - Present)'
 						summary='Lead system architect and engineer responsible for systems design, coding, and mentoring colleagues'
 						tech='C#, SQL, Angular, Ionic, NodeJS, AWS'
